@@ -1,0 +1,140 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+      body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .topbar {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .content {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+     
+      margin: 1em;
+      }
+
+      .icon {
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        cursor: pointer;
+      }
+
+      .icon ion-icon {
+        font-size: 2em;
+      }
+
+      .icon p {
+        margin: 0;
+      }
+
+      .icon:not(:first-of-type) {
+        height: 16vh;
+      }
+
+      .logo {
+        height: 50%;
+      }
+
+      .search-wrapper {
+        display: flex;
+        height: 50%;
+        width: 30%;
+      }
+
+      .search-wrapper input {
+        width: 100%;
+        padding: 0 1em;
+      }
+
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      .top-icon {
+        font-size: 2em;
+        padding: 0 0.5em;
+      }
+
+      .mic-icon {
+        display: flex;
+        align-items: center;
+      }
+
+      .search-btn {
+        padding: 0 0.7em;
+        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+      }
+    
+      #Video-Description {
+        display: flex;
+        flex-direction: row;
+      }
+
+    #text.description {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #logo-copertina{
+      height: 100%;
+      width: 100%;
+    }
+
+      .description{
+        display: flex;
+        margin: 0;
+        text-align: left;
+      }
+  
+      #logo-epicode{
+        height: 60%;
+      }
+
+      .text h1,p{margin: 0;
+      align-self: flex-start;}
+
+     #img-logo{
+      display: flex;
+      padding-top: 1em;
+     }
+      
+     #text-des h1,p {
+      margin: 0;
+      padding-left: 2px;   
+     }
+
+     #text-des h1 {font-size: 30px;}
+
+    #logo-epicode{padding-right: 1em;}
+
+
+
+  .box-video{display: flex;
+    flex-flow: row wrap;
+    height: 30%;
+    width: 30%;
+    margin: 1em;
+  }
+  
